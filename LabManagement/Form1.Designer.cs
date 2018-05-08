@@ -38,14 +38,14 @@
             this.scheduleRichBox = new System.Windows.Forms.RichTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.labGroup = new System.Windows.Forms.GroupBox();
-            this.d1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.B2 = new System.Windows.Forms.Button();
-            this.B3 = new System.Windows.Forms.Button();
-            this.B4 = new System.Windows.Forms.Button();
-            this.d2 = new System.Windows.Forms.Button();
-            this.d3 = new System.Windows.Forms.Button();
             this.d4 = new System.Windows.Forms.Button();
+            this.d3 = new System.Windows.Forms.Button();
+            this.d2 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.B4 = new System.Windows.Forms.Button();
+            this.B3 = new System.Windows.Forms.Button();
+            this.B2 = new System.Windows.Forms.Button();
+            this.d1 = new System.Windows.Forms.Button();
             this.sortOptionBox.SuspendLayout();
             this.labSchedule.SuspendLayout();
             this.labGroup.SuspendLayout();
@@ -84,6 +84,7 @@
             this.applyButton.TabIndex = 4;
             this.applyButton.Text = "Apply";
             this.applyButton.UseVisualStyleBackColor = true;
+            this.applyButton.Click += new System.EventHandler(this.applyButton_Click);
             // 
             // sortOptionBox
             // 
@@ -175,71 +176,16 @@
             this.labGroup.TabStop = false;
             this.labGroup.Text = "Lab List";
             // 
-            // d1
+            // d4
             // 
-            this.d1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d1.Location = new System.Drawing.Point(274, 39);
-            this.d1.Name = "d1";
-            this.d1.Size = new System.Drawing.Size(82, 47);
-            this.d1.TabIndex = 4;
-            this.d1.Text = "Detail";
-            this.d1.UseVisualStyleBackColor = true;
-            this.d1.Click += new System.EventHandler(this.Detail1_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.B4);
-            this.panel1.Controls.Add(this.B3);
-            this.panel1.Controls.Add(this.B2);
-            this.panel1.Controls.Add(this.B1);
-            this.panel1.Location = new System.Drawing.Point(6, 39);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(262, 213);
-            this.panel1.TabIndex = 5;
-            // 
-            // B2
-            // 
-            this.B2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B2.Location = new System.Drawing.Point(3, 53);
-            this.B2.Name = "B2";
-            this.B2.Size = new System.Drawing.Size(256, 49);
-            this.B2.TabIndex = 1;
-            this.B2.Text = "lab2";
-            this.B2.UseVisualStyleBackColor = true;
-            this.B2.Click += new System.EventHandler(this.B2_Click);
-            // 
-            // B3
-            // 
-            this.B3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B3.Location = new System.Drawing.Point(3, 108);
-            this.B3.Name = "B3";
-            this.B3.Size = new System.Drawing.Size(256, 49);
-            this.B3.TabIndex = 2;
-            this.B3.Text = "lab3";
-            this.B3.UseVisualStyleBackColor = true;
-            this.B3.Click += new System.EventHandler(this.B3_Click);
-            // 
-            // B4
-            // 
-            this.B4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B4.Location = new System.Drawing.Point(3, 163);
-            this.B4.Name = "B4";
-            this.B4.Size = new System.Drawing.Size(256, 49);
-            this.B4.TabIndex = 3;
-            this.B4.Text = "lab4";
-            this.B4.UseVisualStyleBackColor = true;
-            this.B4.Click += new System.EventHandler(this.B4_Click);
-            // 
-            // d2
-            // 
-            this.d2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d2.Location = new System.Drawing.Point(274, 92);
-            this.d2.Name = "d2";
-            this.d2.Size = new System.Drawing.Size(82, 47);
-            this.d2.TabIndex = 6;
-            this.d2.Text = "Detail";
-            this.d2.UseVisualStyleBackColor = true;
-            this.d2.Click += new System.EventHandler(this.d2_Click);
+            this.d4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d4.Location = new System.Drawing.Point(274, 205);
+            this.d4.Name = "d4";
+            this.d4.Size = new System.Drawing.Size(82, 47);
+            this.d4.TabIndex = 8;
+            this.d4.Text = "Detail";
+            this.d4.UseVisualStyleBackColor = true;
+            this.d4.Click += new System.EventHandler(this.d4_Click);
             // 
             // d3
             // 
@@ -252,16 +198,71 @@
             this.d3.UseVisualStyleBackColor = true;
             this.d3.Click += new System.EventHandler(this.d3_Click);
             // 
-            // d4
+            // d2
             // 
-            this.d4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.d4.Location = new System.Drawing.Point(274, 205);
-            this.d4.Name = "d4";
-            this.d4.Size = new System.Drawing.Size(82, 47);
-            this.d4.TabIndex = 8;
-            this.d4.Text = "Detail";
-            this.d4.UseVisualStyleBackColor = true;
-            this.d4.Click += new System.EventHandler(this.d4_Click);
+            this.d2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d2.Location = new System.Drawing.Point(274, 92);
+            this.d2.Name = "d2";
+            this.d2.Size = new System.Drawing.Size(82, 47);
+            this.d2.TabIndex = 6;
+            this.d2.Text = "Detail";
+            this.d2.UseVisualStyleBackColor = true;
+            this.d2.Click += new System.EventHandler(this.d2_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.B4);
+            this.panel1.Controls.Add(this.B3);
+            this.panel1.Controls.Add(this.B2);
+            this.panel1.Controls.Add(this.B1);
+            this.panel1.Location = new System.Drawing.Point(6, 39);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(262, 213);
+            this.panel1.TabIndex = 5;
+            // 
+            // B4
+            // 
+            this.B4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B4.Location = new System.Drawing.Point(3, 163);
+            this.B4.Name = "B4";
+            this.B4.Size = new System.Drawing.Size(256, 49);
+            this.B4.TabIndex = 3;
+            this.B4.Text = "lab4";
+            this.B4.UseVisualStyleBackColor = true;
+            this.B4.Click += new System.EventHandler(this.B4_Click);
+            // 
+            // B3
+            // 
+            this.B3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B3.Location = new System.Drawing.Point(3, 108);
+            this.B3.Name = "B3";
+            this.B3.Size = new System.Drawing.Size(256, 49);
+            this.B3.TabIndex = 2;
+            this.B3.Text = "lab3";
+            this.B3.UseVisualStyleBackColor = true;
+            this.B3.Click += new System.EventHandler(this.B3_Click);
+            // 
+            // B2
+            // 
+            this.B2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B2.Location = new System.Drawing.Point(3, 53);
+            this.B2.Name = "B2";
+            this.B2.Size = new System.Drawing.Size(256, 49);
+            this.B2.TabIndex = 1;
+            this.B2.Text = "lab2";
+            this.B2.UseVisualStyleBackColor = true;
+            this.B2.Click += new System.EventHandler(this.B2_Click);
+            // 
+            // d1
+            // 
+            this.d1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d1.Location = new System.Drawing.Point(274, 39);
+            this.d1.Name = "d1";
+            this.d1.Size = new System.Drawing.Size(82, 47);
+            this.d1.TabIndex = 4;
+            this.d1.Text = "Detail";
+            this.d1.UseVisualStyleBackColor = true;
+            this.d1.Click += new System.EventHandler(this.Detail1_Click);
             // 
             // MainScreen
             // 

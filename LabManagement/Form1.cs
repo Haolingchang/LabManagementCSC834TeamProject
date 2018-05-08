@@ -68,7 +68,7 @@ namespace LabManagement
             }
         }
 
-        private void configureButtons()
+        private void configureButtons(string sortoption = "default")
         {
             List<Button> labButtonList = this.panel1.Controls.OfType<Button>().ToList();
             labButtonList.Reverse();
@@ -79,6 +79,16 @@ namespace LabManagement
             String buttonName = "";
 
             labList = dbconn.getLabs();
+
+            if (sortoption.Equals("D"))
+            {
+                labList.Sort((x, y) => y.getAvailableComp().CompareTo(x.getAvailableComp()));
+            }
+            else if (sortoption.Equals("A"))
+            {
+                labList.Sort((x, y) => x.getAvailableComp().CompareTo(y.getAvailableComp()));
+            }
+
             foreach (Lab alab in labList)
             {
                 if (alab.getLabStatus() && alab.getAvailableComp() > 0)
@@ -212,6 +222,28 @@ namespace LabManagement
                     break;
                 }
             }
+        }
+
+        private void applyButton_Click(object sender, EventArgs e)
+        {
+            List<RadioButton> options = this.sortOptionBox.Controls.OfType<RadioButton>().ToList();
+            string selectedOption = "";
+            foreach(RadioButton op in options)
+            {
+                if (op.Checked)
+                {
+                    if(op.Name.Equals("compDRB"))
+                    {
+                        selectedOption = "D";
+                    }
+                    else
+                    {
+                        selectedOption = "A";
+                    }
+                }
+            }
+
+            configureButtons(selectedOption);
         }
     }
 }
