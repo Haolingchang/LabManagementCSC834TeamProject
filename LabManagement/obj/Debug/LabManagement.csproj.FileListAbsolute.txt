@@ -1,0 +1,15 @@
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\bin\Debug\LabManagement.exe.config
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\bin\Debug\LabManagement.exe
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\bin\Debug\LabManagement.pdb
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.csprojResolveAssemblyReference.cache
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.Properties.Resources.resources
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.csproj.GenerateResource.cache
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.csproj.CoreCompileInputs.cache
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.exe
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.pdb
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.MainScreen.resources
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\bin\Debug\MySql.Data.dll
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\bin\Debug\Google.Protobuf.dll
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\bin\Debug\MySql.Data.xml
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.csproj.CopyComplete
+E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.LabDetail.resources
