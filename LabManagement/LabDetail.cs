@@ -70,12 +70,13 @@ namespace LabManagement
             //============================================================================================
 
             //setup schedule
+            scheduleBox.Clear();
             string[] s;
             s = selectedL.getSchedule().Split(',');
             foreach(string ss in s)
             {
-                scheduleBox.Clear();
-                scheduleBox.AppendText(ss);
+                
+                scheduleBox.AppendText(ss+"\n");
             }
 
         }
@@ -89,20 +90,28 @@ namespace LabManagement
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            int compIDLogin = int.Parse(compIDText.Text);
-            int status = 0;
-            ConnectDB db = new ConnectDB();
-            db.updateComputerTable(compIDLogin, status);
-            MessageBox.Show("Loggin successfully!");
+            int compIDLogin = 0;
+            try {compIDLogin = int.Parse(compIDText.Text);
+                int status = 0;
+                ConnectDB db = new ConnectDB();
+                db.updateComputerTable(compIDLogin, status);
+                MessageBox.Show("Loggin successfully!");
+            }
+            catch { MessageBox.Show("Please enter a computerID"); }
+            
         }
 
         private void logoutButton_Click(object sender, EventArgs e)
         {
-            int compIDLogout = int.Parse(compIDText.Text);
-            int status = 1;
-            ConnectDB db = new ConnectDB();
-            db.updateComputerTable(compIDLogout, status);
-            MessageBox.Show("Loggin successfully!");
+            int compIDLogout = 0;
+            try { compIDLogout = int.Parse(compIDText.Text);
+                int status = 1;
+                ConnectDB db = new ConnectDB();
+                db.updateComputerTable(compIDLogout, status);
+                MessageBox.Show("Logout successfully!");
+            }
+            catch  { MessageBox.Show("Please enter a computer ID"); }
+            
         }
 
         private bool firstime = true;
