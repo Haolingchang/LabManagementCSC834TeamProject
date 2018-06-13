@@ -19,7 +19,7 @@ namespace LabManagement
 
         private void Initialize()
         {
-            string connectionString = @"server=localhost;userid=daniel;password=csc834TeamProject;database=labmanagement_localschema";
+            string connectionString = @"server=csshrpt.eku.edu;userid=csc834;password=CSC834student;database=tang";
             connection = new MySqlConnection(connectionString);
         }
 

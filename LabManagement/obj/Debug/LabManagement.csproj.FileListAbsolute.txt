@@ -13,3 +13,17 @@ E:\Document\CSC 834\Team Project\LabManagement\LabManagement\bin\Debug\Google.Pr
 E:\Document\CSC 834\Team Project\LabManagement\LabManagement\bin\Debug\MySql.Data.xml
 E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.csproj.CopyComplete
 E:\Document\CSC 834\Team Project\LabManagement\LabManagement\obj\Debug\LabManagement.LabDetail.resources
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\bin\Debug\LabManagement.exe.config
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\bin\Debug\LabManagement.exe
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\bin\Debug\LabManagement.pdb
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\bin\Debug\Google.Protobuf.dll
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\bin\Debug\MySql.Data.xml
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\obj\Debug\LabManagement.csprojResolveAssemblyReference.cache
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\obj\Debug\LabManagement.MainScreen.resources
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\obj\Debug\LabManagement.LabDetail.resources
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\obj\Debug\LabManagement.Properties.Resources.resources
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\obj\Debug\LabManagement.csproj.GenerateResource.Cache
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\obj\Debug\LabManagement.csproj.CoreCompileInputs.cache
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\obj\Debug\LabManagement.exe
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\obj\Debug\LabManagement.pdb
+C:\Users\haoli\Documents\GitHub\LabManagementCSC834TeamProject\LabManagement\bin\Debug\MySql.Data.dll
